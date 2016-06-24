@@ -1,0 +1,15 @@
+{
+  "name": "focus-outline-manager",
+  "version": "1.0.0",
+  "description": "Watch users keyboard input and manage the focus outline visibility",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "focus",
+    "outline"
+  ],
+  "author": "Vladimirs",
+  "license": "BSD-3-Clause"
+}
