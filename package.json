@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Watch users keyboard input and manage the focus outline visibility",
   "main": "index.js",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/vladimirsiljkovic/focus-outline-manager.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
