@@ -2,9 +2,11 @@
 
 > Watch users keyboard input and manage the focus outline visibility
 
+[![NPM version](https://badge.fury.io/js/focus-outline-manager.svg)](https://www.npmjs.com/package/focus-outline-manager)
+
 By default, browsers add an outline around buttons and other controls when they are clicked:
 
-![](img/outline.gif)
+![](outline.gif)
 
 Removing the outline for all users by setting `*:focus {outline: none;}` will make the site [less accessible for keyboard users](http://outlinenone.com/).
 
@@ -34,7 +36,7 @@ html.focus-outline-hidden *:focus {
 
 ## Credits
 
-- `focus-outline-manager` is based on a Chromium UI utility [focus-outline-manager.js](https://chromium.googlesource.com/chromium/src/+/master/ui/webui/resources/js/cr/ui/focus_outline_manager.js). Copyright © 2012, The Chromium Authors.
+- `focus-outline-manager` is based on a Chromium UI utility [focus-outline-manager.js](https://chromium.googlesource.com/chromium/src/+/master/ui/webui/resources/js/cr/ui/focus_outline_manager.js) (Copyright © 2012, The Chromium Authors).
 
 ## Other Implementations
 

@@ -2,7 +2,7 @@
   "name": "focus-outline-manager",
   "version": "1.0.1",
   "description": "Watch users keyboard input and manage the focus outline visibility",
-  "main": "index.js",
+  "main": "focus-outline-manager.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/vladimirsiljkovic/focus-outline-manager.git"
