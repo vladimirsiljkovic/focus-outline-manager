@@ -29,7 +29,7 @@ require('focus-outline-manager');
 
 CSS:
 ```css
-html.focus-outline-hidden *:focus {
+.focus-outline-hidden :focus {
     outline: none;
 }
 ```
