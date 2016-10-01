@@ -8,7 +8,7 @@ By default, browsers add an outline around buttons and other controls when they 
 
 ![](outline.gif)
 
-Removing the outline for all users by setting `*:focus {outline: none;}` will make the site [less accessible for keyboard users](http://outlinenone.com/).
+Removing the outline by setting `*:focus {outline: none;}` will make the site [less accessible for keyboard users](http://outlinenone.com/).
 
 `focus-outline-manager` enables you to remove the outline for mouse users, retaining it for keyboard users.
 
