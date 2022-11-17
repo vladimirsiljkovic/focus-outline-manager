@@ -4,6 +4,9 @@
 
 [![NPM version](https://badge.fury.io/js/focus-outline-manager.svg)](https://www.npmjs.com/package/focus-outline-manager)
 
+> NOTICE: THIS LIBRARY IS NO LONGER NEEDED FOR MODERN BROWSERS, AS THEY INCLUDE THIS BEHAVIOR BY DEFAULT FOR BUTTONS, WHILE
+> IT CAN BE REPLICATED WITH A SINGLE MODERN CSS RULE FOR INPUTS: `:focus:not(:focus-visible) { outline: none; }`
+
 By default, browsers add an outline around buttons and other controls when they are clicked:
 
 ![](outline.gif)
