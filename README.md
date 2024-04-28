@@ -4,8 +4,7 @@
 
 [![NPM version](https://badge.fury.io/js/focus-outline-manager.svg)](https://www.npmjs.com/package/focus-outline-manager)
 
-> NOTICE: THIS LIBRARY IS NO LONGER NEEDED FOR MODERN BROWSERS, AS THEY INCLUDE THIS BEHAVIOR BY DEFAULT FOR BUTTONS, WHILE
-> IT CAN BE REPLICATED WITH A SINGLE MODERN CSS RULE FOR INPUTS: `:focus:not(:focus-visible) { outline: none; }`
+> **NOTICE:** This library is no longer needed in most cases. Modern browsers added this behavior by default for most focusable elements, except for text `<input>` and `<textarea>`, for which you can hide the default outline and show a different focus indicator, such as a different border color. For example: `input:focus-visible, textarea:focus-visible {outline: none; border: 1px solid black;}`. For now, it is [not possible](https://stackoverflow.com/questions/70168063/styling-input-field-focused-by-keyboard) to set different styling on an input field which is focused by keyboard (not mouse) with CSS only, without JS. In case you want to change the default focus indicator style for all elements, without affecting the focus indicator visibility, you can use a new pseudo-class `:focus-visible` instead of `:focus`. For example: `:focus-visible {outline: 2px solid black;}`.
 
 By default, browsers add an outline around buttons and other controls when they are clicked:
 
